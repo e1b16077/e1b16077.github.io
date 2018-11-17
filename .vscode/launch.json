@@ -14,6 +14,7 @@
       // 読み込むHTMLファイルを指定（プロジェクトからのパスを指定）
       "file": "${workspaceRoot}/index.html"
       
+      
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
