@@ -1,58 +1,86 @@
-body {
-    font-family: "Avenir Next";
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  .header {
-    background-color: #11ceb5;
-    color: rgb(5, 5, 5);
-    height: 120px;
-  }
-  
-  .header-logo {
-    float: left;
-    font-size: 36px;
-    padding: 20px 40px;
-  }
-  
-  .header-list {
-    float: left;
-  }
-  
-  .header-list li {
-    float: left;
-    padding: 33px 20px;
-  }
-  
-  .main {
-    background-color: #bdf7f1;
-    height: 600px;
-  }
-  
-  .footer {
-    /* background-colorを#2f5167に変更してください */
-    background-color: #ceccf3;
+﻿body{
+    font-size: 16px;
+    font-family:Verdana, sans-serif;
+    color: #333;
+    margin:0;
+}
+
+/*ヘッダーの背景・文字の色の設定*/
+header{
+    color: rgb(255, 255, 255);
+    background:url(../kuro.jpg);
+    background-size:cover;
+}
+
+header h1{
+    margin-bottom:8px;
+    margin-top:0;
+    font-weight: normal;
+    font-size: 32px;
+}
+
+header p{
+    margin-top:0px;
+}
+
+.continar{
+    margin: 0 auto;
+    width:1150px;
+    padding: 60px 0px;
     
-    /* colorを#fffにしてください */
-    color:#fff;
+}
+
+/*ボタンの作成及び設定*/
+.btn{
+    display: inline-block;
+    width:200px;
+    text-align: center;
+    padding:5px; 
+    border-radius: 10px;
+    background-color:#fff;
+    text-decoration: none;
+    opacity: 0.7;
+    color:black;
+}
+/*ボタンの濃淡*/
+.btn:hover{
+    opacity: 1.0;
+}
+/*ヘッダーを中央揃え*/
+header .continar{
+    position: relative;
+}
+
+header img{
+    position:absolute;
+    bottom: 0px;
+    right: 280px;
     
-    /* heightを120pxに変更してください */
-    height: 120px;
-    /* 上下左右のpaddingを40pxにしてください */
-    padding:40px;
+}
+
+.center{
+   /* margin:0 auto;
+    width: 400px;
+    height: 220px;
+    background-color: #333 
+    position: relative;*/
+    padding-left:50px; 
+    padding-top:20px;
+}
+
+
+
+
+main{
+    color: rgb(255, 255, 255);
+    background:url(../kuro.jpg);
+    background-size:cover;
+}
+
+.continar-m{
+    margin: 0 auto;
+    width:620px;
+    height: 320px;
+    padding: 75px 0px;
     
-  }
-  
-  /* footer-logoのfont-sizeとfloatを指定してください */
-  .footer-logo{
-    font-size:32px;
-    float:left;
-  }
-    
-  .footer-list{
-    float:right;
-  }
- 
+}
