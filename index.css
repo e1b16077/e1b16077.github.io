@@ -8,8 +8,9 @@
 /*ヘッダーの背景・文字の色の設定*/
 header{
     color: rgb(255, 255, 255);
-    background:url(../kuro.jpg);
+    background:url(kuro.jpg);
     background-size:cover;
+    
 }
 
 header h1{
@@ -54,7 +55,7 @@ header .continar{
 header img{
     position:absolute;
     bottom: 0px;
-    right: 280px;
+    right: 150px;
     
 }
 
@@ -69,18 +70,24 @@ header img{
 }
 
 
-
-
 main{
     color: rgb(255, 255, 255);
-    background:url(../kuro.jpg);
+    background:url(kuro.jpg);
     background-size:cover;
 }
 
 .continar-m{
-    margin: 0 auto;
-    width:620px;
-    height: 320px;
-    padding: 75px 0px;
     
+    
+}
+
+.continar .tume{
+    width:450px;
+    float:right;
+    padding-right:140px;
+}
+.continar .han{
+    width:450px;
+    float:left;
+    padding-right:100px;
 }
